@@ -4,19 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.s01y.fluidisland"
+    namespace = "com.glass.widgets"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.s01y.fluidisland"
+        applicationId = "com.glass.widgets"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-    }
-
-    buildTypes {
-        release { isMinifyEnabled = false }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
